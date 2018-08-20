@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <p>sdsdsd</p>
+    <p>{{m}}- {{m}}</p>
+    <p>
+      <ul>
+        <!-- <li v-model="m">fdfdfd</li> -->
+      </ul>
+      <input type="text" v-model="m">
+    </p>lllll
+  </div>
+  <div id="ds">
+    lll
+  </div>
+</body>
+<script src="dep.js"></script>
+<script src="watcher.js"></script>
+<script src="observer.js"></script>
+<script src="compile.js"></script>
+<script src="mvvm.js"></script>
+<!-- <script src="vue.js"></script> -->
+<script>
+  var t = new MVVM({
+    el: '#app',
+    data: {
+      m: 'hahahhaah'
+    }
+  })
+  // var t = new Vue({
+  //   el: '#app',
+  //   data: {
+  //     m: 'hahahhaah'
+  //   }
+  // })
+</script>
+</html>
